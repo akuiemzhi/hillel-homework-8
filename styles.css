@@ -7,7 +7,6 @@
 .wrapper  {
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     margin: 0 auto;
     align-items: center;
     width: 1440px;
@@ -179,8 +178,7 @@ nav a:hover {
    }
 
 .intro-block {
-    display: flex;
-    flex-direction: column;
+    
     margin-bottom: 30px;
     margin-top: 156px;
     box-sizing: border-box;
@@ -190,17 +188,23 @@ nav a:hover {
 .intro__picture {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
-    width: 1344px;
     margin-left: 96px;
     gap: 60px;
     margin-bottom: 156px;
-    /* padding-left: 96px; */
 }
 
 
 .pic2 {
     width: 780px;
+}
+
+.pic2 p {
+    font-family: var(--font-family);
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 160%;
+    letter-spacing: -0.01em;
+    color: #000;
 }
 
 
