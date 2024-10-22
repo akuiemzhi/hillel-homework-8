@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basket</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../normalize.css" />
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="header-menu">
+        <a href="../index.html"><header>World Peas</header></a>
+        <nav>
+          <a href="../pages/shop.html">Shop</a>
+          <a href="">Newstand</a>
+          <a href="">Who we are</a>
+          <a href="">My profile</a>
+          <a class="header__basket" href="../pages/basket.html">Basket (3)</a>
+        </nav>
+      </div>
+      <main class="page-content">
+        <div class="page-title">
+          <div class="page-title__left-bar">
+            <h1 class="page-title-text">Basket</h1>
+            <h4 class="page-title-sub">3 items</h4>
+          </div>
+        </div>
+        <div class="basket-sum">
+          <div class="basket__items">
+            <!-- BASKET CARD ITEM -->
+            <div class="basket__card">
+              <div class="basket_group">
+                <img
+                  class="basket__card-img"
+                  src="../img/tomato.png"
+                  alt="tomato"
+                />
+                <div class="basket__card__specs">
+                  <a href=""><h5 class="item--title">Heirloom tomato</h5></a>
+                  <h5 class="item--price">$5.99 / lb</h5>
+                  <div class="card-weight">
+                    <p class="card-weight_sum">1 lb</p>
+                    <img src="../img/pen.png" alt="pencil image" />
+                  </div>
+                </div>
+              </div>
+              <h5 class="basket__item__total">$5.99</h5>
+            </div>
+            <div class="basket__card">
+              <div class="basket_group">
+                <img
+                  class="basket__card-img"
+                  src="../img/ginger.png"
+                  alt="ginger"
+                />
+                <div class="basket__card__specs">
+                  <a href=""><h5 class="item--title">Organic ginger</h5></a>
+                  <h5 class="item--price">$12.99 / lb</h5>
+                  <div class="card-weight">
+                    <p class="card-weight_sum">0.5 lb</p>
+                    <img src="../img/pen.png" alt="pencil image" />
+                  </div>
+                </div>
+              </div>
+              <h5 class="basket__item__total">$6.50</h5>
+            </div>
+            <div class="basket__card">
+              <div class="basket_group">
+                <img
+                  class="basket__card-img"
+                  src="../img/onion.png"
+                  alt="onion"
+                />
+                <div class="basket__card__specs">
+                  <a href=""><h5 class="item--title">Sweet onion</h5></a>
+                  <h5 class="item--price">$2.99 / lb</h5>
+                  <div class="card-weight">
+                    <p class="card-weight_sum">5 lb</p>
+                    <img src="../img/pen.png" alt="pencil image" />
+                  </div>
+                </div>
+              </div>
+              <h5 class="basket__item__total">$14.95</h5>
+            </div>
+          </div>
+          <aside class="basket__pay">
+            <div class="pay__types">
+              <h4 class="pay__title">Order summary</h4>
+              <h5 class="pay__type">Subtotal</h5>
+              <h5 class="pay__summ">$27.44</h5>
+              <div class="pay_clearfix"></div>
+
+              <h5 class="pay__type">Shipping</h5>
+              <h5 class="pay__summ">$3.99</h5>
+              <div class="pay_clearfix"></div>
+
+              <h5 class="pay__type">Tax</h5>
+              <h5 class="pay__summ">$2.00</h5>
+              <div class="pay_clearfix"></div>
+
+              <h5 class="pay__type pay__total">Total</h5>
+              <h5 class="pay__summ pay__total">$33.43</h5>
+              <div class="pay_clearfix"></div>
+            </div>
+            <a href="">
+              <div class="pay__button">
+                <h3>Continue to payment</h3>
+                <img src="../img/arrow.png" alt="payment arrow" />
+              </div>
+            </a>
+          </aside>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
