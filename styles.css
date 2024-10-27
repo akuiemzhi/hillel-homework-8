@@ -1,5 +1,9 @@
 :root {
-    
+    --first-color: #e6e6e6;
+    --second-color:#000;
+    --third-color:#426b1f;
+    --fourth-color: #6d6d6d;
+    /* fonts */
     --font-family: 'Inter', sans-serif;
     --third-family: 'Newsreader', sans-serif;
 }
@@ -29,7 +33,7 @@
     justify-content: space-between;
     width: 100%;
     padding-bottom: 33px;
-    border-bottom: 2px solid #e6e6e6;
+    border-bottom: 2px solid var(--first-color);
     align-items: baseline;
     margin-bottom: 40px;
 }
@@ -51,7 +55,7 @@
     font-size: 16px;
     line-height: 130%;
     text-align: center;
-    color: #000;
+    color: var(--second-color);
 }
 
 .page-title-text {
@@ -60,7 +64,7 @@
     font-size: 64px;
     line-height: 120%;
     letter-spacing: -0.02em;
-    color: #000;
+    color: var(--second-color);
     margin-right: 24px;
 }
 
@@ -69,7 +73,7 @@
     font-weight: 300;
     font-size: 20px;
     line-height: 130%;
-    color: #000;
+    color: var (--second-color);
 }
 
 .header-menu {
@@ -87,7 +91,7 @@ header {
     font-size: 32px;
     line-height: 100%;
     letter-spacing: -0.01em;
-    color: #426b1f;
+    color: var (--third-color);
     margin-left: 96px;
     margin-top: 41px;
     
@@ -115,7 +119,7 @@ nav a{
     font-size: 16px;
     line-height: 130%;
     text-align: center;
-    color: #000;    
+    color: var (--second-color);    
     justify-content: center;
 }
 nav a:hover {
@@ -124,10 +128,10 @@ nav a:hover {
 
 
 .header__basket {
-    background: #426b1f;
+    background: var (--third-color);
     border-radius: 8px;
     padding: 14px 23px;
-    color: #fff;
+    color: var(--first-color);
     
 }
 
@@ -149,7 +153,7 @@ nav a:hover {
     line-height: 120%;
     letter-spacing: -0.02em;
     text-align: center;
-    color: #000;
+    color: var (--second-color);
     text-align: center;
     width: 1020px;
     align-items: center;
@@ -166,13 +170,13 @@ nav a:hover {
     font-weight: 600;
     font-size: 20px;
     line-height: 130%;
-    color: #fff;
-    border: 1px solid #000;
+    color: var (--first-color);
+    border: 1px solid var (--second-color);
     border-radius: 8px;
     padding: 19px 32px;
     width: 227px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
-    background: #426b1f;
+    background: var (--third-color);
     text-align: center;
     
    }
@@ -204,7 +208,7 @@ nav a:hover {
     font-size: 14px;
     line-height: 160%;
     letter-spacing: -0.01em;
-    color: #000;
+    color: var (--second-color);
 }
 
 
@@ -228,16 +232,20 @@ nav a:hover {
     line-height: 160%;
     letter-spacing: 0.04em;
     text-transform: uppercase;
-    color: #000;
+    color: var (--second-color);
 }
 
 .intro-block__about {
+       
+    margin-bottom: 32px;
+    width: 821px;
+}
+.intro-block__about p {
+    margin-bottom: 30px;
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 20px;
-    color: #000;    
-    margin-bottom: 32px;
-    width: 821px;
+    color: var (--second-color);
 }
 
 /* basket */
@@ -258,11 +266,11 @@ nav a:hover {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    border: 2px solid #e6e6e6;
+    border: 2px solid var(--first-color);
     border-radius: 24px;
     width: 821px;
     height: 159px;
-    background: #fafaf5;
+    background: var(--first-color);
     box-sizing: border-box;
 }
 
@@ -293,7 +301,7 @@ nav a:hover {
     font-weight: 600;
     font-size: 20px;
     line-height: 130%;
-    color: #000;
+    color: var (--second-color);
     margin-bottom: 4px;
 }
 
@@ -302,7 +310,7 @@ nav a:hover {
     font-weight: 600;
     font-size: 20px;
     line-height: 130%;
-    color: #426b1f;
+    color: var (--third-color);
     margin-bottom: 16px;
 }
 
@@ -316,7 +324,7 @@ nav a:hover {
     padding: 8px 16px;
     width: 128px;
     height: 40px;
-    background: #fff;
+    background: var (--first-color);
     margin-bottom: 24px;
     box-sizing: border-box;
 }
@@ -326,7 +334,7 @@ nav a:hover {
     font-weight: 700;
     font-size: 16px;
     line-height: 130%;
-    color: #000;
+    color: var (--second-color);
 }
 
 .basket__item__total {
@@ -335,7 +343,7 @@ nav a:hover {
     font-size: 20px;
     line-height: 130%;
     text-align: right;
-    color: #000;
+    color: var (--second-color);
     margin-right: 24px;
     margin-top: 24px;
 }
@@ -345,10 +353,10 @@ nav a:hover {
     flex-direction: column;
     width: 395px;
     overflow: hidden;
-    border: 2px solid #e6e6e6;
+    border: 2px solid var(--first-color);
     border-radius: 24px;
     height: 318px;
-    background: #fafaf5;
+    background: var(--first-color);
     box-sizing: border-box;
     align-items: center;
     padding: 24px;
@@ -364,7 +372,7 @@ nav a:hover {
     font-weight: 600;
     font-size: 20px;
     line-height: 130%;
-    color: #000;
+    color: var (--second-color);
     margin-bottom: 32px;
 }
 
@@ -374,7 +382,7 @@ nav a:hover {
     font-weight: 400;
     font-size: 16px;
     line-height: 130%;
-    color: #000;
+    color: var (--second-color);
     margin-bottom: 16px;
 }
 
@@ -384,7 +392,7 @@ nav a:hover {
     font-weight: 400;
     font-size: 16px;
     line-height: 130%;
-    color: #000;
+    color: var (--second-color);
     margin-bottom: 16px;
 }
 
@@ -407,7 +415,7 @@ nav a:hover {
     border-radius: 8px;
     padding: 10px 8px 10px 16px;
     height: 48px;
-    background: #426b1f;
+    background: var (--third-color);
 }
 
 .pay__button h3 {
@@ -415,22 +423,22 @@ nav a:hover {
     font-weight: 600;
     font-size: 16px;
     line-height: 130%;
-    color: #fff;
+    color: var (--first-color);
 }
 
 /* SHOP */
 .right-bar__filter {
-    background: #fff;
-    border: 1px solid #c2c2c2;
+    background: var (--first-color);
+    border: 1px solid var(--first-color);
     border-radius: 20px;
     padding: 10px 16px;
 }
 
 .right-bar__filter--choose {
-    background: #426b1f;
+    background: var (--third-color);
     border-radius: 20px;
     padding: 10px 16px;
-    color: #fff;
+    color: var (--first-color);
 }
 
 .shop-list {
@@ -445,11 +453,11 @@ nav a:hover {
 .shop-item {
     display: flex;
     flex-direction: column;
-    border: 2px solid #e6e6e6;
+    border: 2px solid var(--first-color);
     border-radius: 24px;
     width: 395px;
     height: 444px;
-    background: #fafaf5;
+    background: var(--first-color);
 }
 
 .shop-item:hover {
@@ -462,7 +470,7 @@ nav a:hover {
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
-    color: #6d6d6d;
+    color: var (--fourth-color);
 }
 
 .item-pic {
